@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/ns-backend/pom.xml" />
         <option value="$PROJECT_DIR$/backend_netsec/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
