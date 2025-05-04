@@ -32,13 +32,13 @@ public class CaptureSession {
 
     @OneToMany(mappedBy = "session", cascade = CascadeType.ALL)
     @JsonManagedReference
-    private List<Packet> packets = new ArrayList<>();
+    private List<Packet> packets = new ArrayList<Packet>();
 
     @OneToMany(mappedBy = "session", cascade = CascadeType.ALL)
     @JsonManagedReference
-    private List<ProtocolStats> stats = new ArrayList<>();
+    private List<ProtocolStats> stats = new ArrayList<ProtocolStats>();
 
     @OneToMany(mappedBy = "session", cascade = CascadeType.ALL)
     @JsonManagedReference
-    private List<Anomaly> anomalies = new ArrayList<>();
+    private List<Anomaly> anomalies = new ArrayList<Anomaly>();
 }
